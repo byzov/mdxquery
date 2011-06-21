@@ -8,7 +8,7 @@ endif
 let g:loaded_mdxquery = 1
 
 if !hasmapto('<Plug>MDXquerySend')
-    map <unique> <Leader>a  <Plug>MDXquerySend
+"    map <unique> <Leader>a  <Plug>MDXquerySend
 endif
 
 if !exists(":MDXsend")

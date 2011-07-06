@@ -1,7 +1,14 @@
 " Vim plugin for send MDX queries to the OLAP server
 "
 " Config:
-"   let mdx_config = '/home/byzov_pa/.vim/mdx.config'
+"   let mdx_config = '/path/to/mdx.config'
+"
+"   Example mdx.config
+"       [server]
+"       url = http://example.com/olap
+"       username = user
+"       password = pass
+"
 "
 " Maintainer: Pavel Byzov <pavel@byzov.com>
 " TODO:
